@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup Deno
-        uses: denolib/setup-deno@v1
+        uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.39.4
+          deno-version: "1.39.4"
       - run: cd dns && deno run -A src/main.ts
