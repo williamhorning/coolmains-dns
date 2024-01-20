@@ -1,0 +1,27 @@
+[
+  {
+    "label": "@",
+    "type": "NS",
+    "value": "ns0.1984.is"
+  },
+  {
+    "label": "@",
+    "type": "NS",
+    "value": "ns1.1984.is"
+  },
+  {
+    "label": "@",
+    "type": "NS",
+    "value": "ns2.1984.is"
+  },
+  {
+    "label": "@",
+    "type": "NS",
+    "value": "ns1.1984hosting.com"
+  },
+  {
+    "label": "@",
+    "type": "NS",
+    "value": "ns2.1984hosting.com"
+  }
+]
