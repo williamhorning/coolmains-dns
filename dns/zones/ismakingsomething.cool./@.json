@@ -1,0 +1,17 @@
+[
+  {
+    "label": "@",
+    "type": "A",
+    "value": "89.106.200.1"
+  },
+  {
+    "label": "@",
+    "type": "AAAA",
+    "value": "2a12:5240::1"
+  },
+  {
+    "label": "www",
+    "type": "CNAME",
+    "value": "ismakingsomethingdotcool.pages.dev"
+  }
+]

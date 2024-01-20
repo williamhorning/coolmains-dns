@@ -1,0 +1,19 @@
+name: Update DNS
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "dns/zones/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update DNS on push to main
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Deno
+        uses: denolib/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - run: cd dns && deno run -A src/main.ts
