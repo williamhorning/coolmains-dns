@@ -2,11 +2,11 @@
   {
     "label": "@",
     "type": "NS",
-    "value": "ns1.kagl.me"
+    "value": "ns1.kagl.me."
   },
   {
     "label": "@",
     "type": "NS",
-    "value": "ns99.kagl.me"
+    "value": "ns99.kagl.me."
   }
 ]

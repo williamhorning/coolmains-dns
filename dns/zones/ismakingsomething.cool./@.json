@@ -12,16 +12,16 @@
   {
     "label": "www",
     "type": "CNAME",
-    "value": "ismakingsomethingdotcool.pages.dev"
+    "value": "ismakingsomethingdotcool.pages.dev."
   },
   {
     "label": "@",
     "type": "NS",
-    "value": "ns1.packetframe.com"
+    "value": "ns1.packetframe.com."
   },
   {
     "label": "@",
     "type": "NS",
-    "value": "ns2.packetframe.com"
+    "value": "ns2.packetframe.com."
   }
 ]
