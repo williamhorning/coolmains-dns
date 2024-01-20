@@ -23,7 +23,7 @@ export class API {
     }
 
     if (!this.config?.token && _tokenrequired) {
-      throw new Error("No token found, try running `pf login`");
+      throw new Error("No token found");
     }
   }
 
@@ -41,7 +41,7 @@ export class API {
   }
 
   static async login({ email, password }: { email: string; password: string }) {
-    const api = new API(true);
+    const api = new API(false);
 
     const login_resp = await api.fetch("user/login", "POST", {
       email,
