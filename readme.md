@@ -28,4 +28,4 @@ thanks to [Nate Sales](https://github.com/natesales) for providing [Packetframe]
 
 thanks to [Keaton AG Lair](https://kagl.me/) for providing the domains used
 
-the code in this repo is written by [William Horning](https://williamhorning.dev) and is released under the MIT license
+the code in this repo is written by [William Horning](https://williamhorning.eu.org) and is released under the MIT license
